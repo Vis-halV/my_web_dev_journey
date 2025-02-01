@@ -15,3 +15,6 @@ for(div of divs) {
     div.innerText = `New text ${idx}`;
     idx++;
 }
+
+/*  In query selector for class (.)dot is used and 
+    for id (#) hash is used to differentiate*/
