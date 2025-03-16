@@ -1,0 +1,126 @@
+
+/* General Styles */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Logo */
+  .logo {
+    color: white;
+    display: block;
+    height: 5rem;
+    width: 5rem;
+    margin: 20px auto;
+  }
+  
+  /* Title */
+  .app-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Container */
+  .container {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Input Field */
+  .input-text {
+    width: 50%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    outline: none;
+  }
+  
+  /* Add Button */
+  .add-btn {
+    width: 50%;
+    padding: 12px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .add-btn:hover {
+    background-color: #e63939;
+  }
+  
+  /* To-do List */
+  .list {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    width: 60%;
+  }
+  
+  li {
+    background: #222;
+    padding: 12px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Checkbox */
+  input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.3);
+    cursor: pointer;
+  }
+  
+  /* Delete Button */
+  .delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .delete-btn:hover {
+    background-color: #e63939;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .container,
+    ul {
+      width: 90%;
+    }
+  
+    .input-text,
+    .add-btn {
+      width: 100%;
+    }
+  }
